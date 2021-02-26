@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css">
+        
+        <body>
+            <div class="login-page">
+                <div class="form">
+                    <form class="register-form" action="/" method="POST">
+                        <input type="text" placeholder="name">
+                        <input type="text" placeholder="breed">
+                        <input type="text" placeholder="password">
+                        <input type="text" placeholder="email id">
+                        <buttton id="button">Log in</buttton>
+                        <p class="message">Already Reagistered? <a href="#">Login</a></p>
+                    </form>
+                    <form action="/" method="POST">
+                        <input type="text" placeholder="email" id="email">
+                        <input type="password" placeholder="password" id="password">
+                        <button type="button" onclick="getInfo()">login</button>
+                        <p class="message">Not Registered? <a id="storage" href="#">Register</a></p>
+                    </form>
+                </div>
+            </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="auth.js"></script>
+        <script src="login.js">
+            console.log(localStorage);
+        </script>
+        </body>
+    </head>
+</html>

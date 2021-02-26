@@ -1,39 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title> 
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="bot.css">   
-    </head>
-    <body>
-      <section>
-        <div class="welcome-text">
-          <h1>Welcome to our Community</h1>
-          <p>Don't be shy talk to someone</p>
-        </div>
-
-        <button class="open-button" onclick="openForm()"><i class="fas fa-comment"></i></button>
+        <title>Events Todo</title>
+        <link rel="stylesheet" type="text/css" href="todos.css">
+        <body>
         
-        <div class="chat-popup" id="myForm">
-  <form action="/" class="form-container">
-    <h1>Chat</h1>
-    <div class="income-msg">
-      <img src="https://images.unsplash.com/photo-1534351450181-ea9f78427fe8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="avatar" alt="avatar">
-      <span class="msg">Woof!, how can I help you?</span>
-    </div>
+        <ul>
+            <li>Wash Dog</li>
+            <li>Feed Dog</li>
+            <li>Walk dog</li>
+        </ul>
 
-    <label id="user" for="msg"><b>Message</b></label>
-    <textarea id="input" placeholder="Type message.." name="msg" required></textarea>
 
-    <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
-
-      <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
-      <script src="bot.js"></script>
-    </body>
+        <script type="text/javascript" src="Todos.js"></script> 
+        </body>
+    </head>
 </html>
